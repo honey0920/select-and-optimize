@@ -1,3 +1,6 @@
+### The source code is being organized.
+----
+
 # Select and Optimize: Learning to Solve Large-Scale Traveling Salesmen Problem
 ![Pipeline](evaluate/results/Pipeline.png)
 Our *select-and-optimize* iterative framework: At each step, batch sub-problems are sampled and then fed into our selector-and-optimizer network. We select the most promising sub-problem and transform it into a new sub-solution $X_s$ by our network. The destroy-and-repair method is applied on the new solution $X'$ at a certain updating interval.
